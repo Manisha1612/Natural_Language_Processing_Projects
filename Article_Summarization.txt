@@ -1,0 +1,12 @@
+The Text Summarization is creating a summary of the given Text.
+Here I have taken Text= News Article
+The program fetches the data from web using BeautifulSoup package of python.
+Tokenization , stopword removal functions are used.
+Then frequency count of each word is caluculated, the frequency is normalized in the range of 0-1. Outlier words , which are not in the range are removed and summary is generated.
+The result is quite meaningful and can conclude as summary of the Article. 
+
+References :  Udemy Machine Learning Course
+              Blogs for Web Scrapping
+              IIT- NPTEL Natural Language programming Lecture Series
+              
+              
